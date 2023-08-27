@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "lint": "eslint",
+    "lint": "eslint .",
     "build": "webpack --mode production"
   },
   "repository": {
@@ -31,8 +31,5 @@
     "mini-css-extract-plugin": "^2.7.6",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "core-js": "^3.32.1"
   }
 }
